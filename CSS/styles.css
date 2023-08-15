@@ -1,0 +1,257 @@
+*{
+  margin: 0px;
+  padding: 0%;
+}
+body {
+  background-image: url(../Imagenes/fon.jpeg);
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-attachment: fixed;
+  padding: 0;
+  align-content: center;
+  margin: 0%;
+}
+/*caracteristicas del menu*/
+.dropdown{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  margin: 92%;
+  margin-top: 10px;
+  position: fixed;
+}
+.dropdown-content{
+  margin-left: -2%;
+  padding:1%;
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color: #7e7d7da1;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.dropdown-content a{
+  background-color: #7c5a5a00;
+  display: block;
+  color: #ffffff;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover{
+  color: #ffffff;
+  background-color: #470101;
+}
+
+
+/*encabezado*/
+.container{
+  margin-top: 0px;
+  width: 95.5%;
+  margin: 0px;
+  padding: 30px;
+  background-image: url(../Imagenes/gif1.gif)
+
+}
+
+/*seccion de contenido*/
+/*gif portada*/
+.portada{
+  margin-left: 25%;
+  background-color: #e4000000;
+  width: 0% 30px;
+  height: 650px;
+}
+.section1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: #470101;
+  background-color: #d3d3d3;
+  width: 92%;
+  margin: 20px;
+  padding: 1%;
+}
+.section2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: #470101;
+  margin-top: 10px;
+  align-content: center;
+  background-color: #d3d3d3;
+  width: 94%;
+  margin: 20px;
+  padding: 2%;
+/*orden de las iamgenes*/
+  overflow: hidden;
+  height: 1000px;
+}
+
+.box1{
+  color: #470101;
+  margin: 10%;
+  width: 40%;
+  height: 200px;
+  background-color: blue;
+  margin: 10px;
+  margin-top: 10px;
+  float: left;
+}
+
+.box2{
+  color: #470101;
+  width: 50%;
+  height: 200px;
+  background-color: rgba(0, 0, 255, 0);
+  margin-top: 10px;
+  float: left;
+  margin: 50px;
+
+}
+
+.box3{
+  color: #470101;
+  margin: 10%;
+  width: 95%;
+  height: 200px;
+  background-color: rgba(0, 0, 255, 0);
+  margin: 10px;
+  margin-top: 210px;
+  float: left;
+}
+
+
+.sectionV{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: #470101;
+  margin-top: 0px;
+  align-content: center;
+  background-color: #d3d3d3;
+  width: 94%;
+  margin: 20px;
+  padding: 1%;
+/*orden de las iamgenes*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: px;
+  overflow: hidden;
+}
+
+
+/*carrusel*/
+.carousel-container {
+  display: block;
+  max-width: 100%;
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+}
+/*slide del carrusel*/
+.carousel-slide {
+  display: flex;
+  width: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+/*imagenes del carrusel*/
+.carousel-item {
+  flex: 0 0 100%;
+  height: 500px;
+  background-color: #d86d6d00;
+  text-align: center;
+  line-height: 300px;
+  font-size: 24px;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.carousel-controls button {
+  background-color: #ffffff00;
+  color: #ffffff00;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+
+.texto{
+  overflow: hidden;
+  position: absolute;
+  flex-direction: column;
+  transform: translateY(0px);
+  margin-bottom: 9px;
+  backdrop-filter: blur(20px);
+  background-color: #272727;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+.texto h3{
+  text-shadow: #000000;
+  padding-top: 40px;
+  color: white;
+  font-weight: 300;
+  font-size: 27px;
+}
+.texto p{
+  align-items: center;
+  padding: 20px;
+  color: white;
+  font-size: 0px;
+  font-weight: 300;
+}
+  
+.imagenes .texto{
+  width: 600px;
+  height: 100px;
+  transition: 1s;
+}
+.imagenes:hover .texto{
+  transition: height 1s, transform 1s, background-color 1s;
+  transform: translateY(-150px);
+  height: 300px;
+  background-color: rgba(109, 89, 89, 0.85);
+}
+.imagenes:hover .texto p{
+  transition: font-size 0s .2s linear;
+  font-size: 23px;
+  font-weight: 300;
+
+  text-shadow: 0px 0px 10px #000000;
+}
+.puntos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.puntos p{
+  font-size: 100px;
+  font-weight: 500;
+  margin-top: -50px;
+  color: black;
+}
+.puntos .bold{
+  font-weight: 700;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: purple;
+}
+
+
+/*Pie de pagina*/
+.pie{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  background-color: #470101;
+  width: 95.5%;
+  margin: 0px;
+  padding: 30px;
+  color: #ffffff;
+}
